@@ -1,0 +1,20 @@
+{
+  "name": "digitale-werte/CheckMK-API",
+  "description": "A Wrapper Library to Access CheckMK functions from PHP",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Heiner Ohm",
+      "email": "heiner.ohm@digitale-werte.com"
+    }
+  ],
+  "require": {
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "DigitaleWerte\\Wrapper\\": "src/DigitaleWerte/Wrapper"
+    }
+  }
+}
