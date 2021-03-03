@@ -1,5 +1,5 @@
 {
-  "name": "digitale-werte/CheckMK-API",
+  "name": "digitale-werte/check-mk-api",
   "description": "A Wrapper Library to Access CheckMK functions from PHP",
   "minimum-stability": "dev",
   "license": "MIT",

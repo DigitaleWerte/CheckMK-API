@@ -43,6 +43,20 @@ class CheckMkApi
 
 
         $data = $this->doRequest($request);
+
+
+        /**
+        &_down_custom=Custom+time+range
+        &_down_from_date=2020-03-31
+        &_down_from_time=12:30
+        &_down_to_date=2020-03-31
+        &_down_to_time=14:30
+        &_down_comment=test_downtime
+        &_down_from_now=yes
+         */
+
+
+
     }
 
     /**
@@ -68,15 +82,7 @@ class CheckMkApi
 
 
     }
-    /**
-    &_down_custom=Custom+time+range
-    &_down_from_date=2020-03-31
-    &_down_from_time=12:30
-    &_down_to_date=2020-03-31
-    &_down_to_time=14:30
-    &_down_comment=test_downtime
-    &_down_from_now=yes
-     */
+
     private function doRequest($reqParam) {
 
         $ch = curl_init();
